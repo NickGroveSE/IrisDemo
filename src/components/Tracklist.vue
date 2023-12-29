@@ -26,7 +26,7 @@
 <style scoped>
 
     .track {
-        padding: 5px;
+        padding: 5px 0 5px 0;
         width: 100%;
         border-bottom: 1px solid var(--primary-accent);
     }

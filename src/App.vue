@@ -133,7 +133,7 @@
 
   <DefaultLayout>
     <div class="main-panel" id="left-panel">
-      <Iris/>
+      <Iris :tracks="tracks"/>
       <div id="description">This is your Iris. An iridescent morphing collection of all the colors that make up the album artwork for your favorite music. Change the timeframe you want to pull from on the right.</div>
     </div>
     <div class="main-panel" id="right-panel">

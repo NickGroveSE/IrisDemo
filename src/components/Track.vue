@@ -67,11 +67,11 @@
         height: 30px;
         float: right;
         vertical-align: top;
+        transition: 0.5s;
     }
 
     .colors-container:hover .color {
         width: 30px;
-        transition: 0.5s;
     }
 
 </style>
