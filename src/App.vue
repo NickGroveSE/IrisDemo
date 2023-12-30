@@ -170,7 +170,7 @@
 
   /* Intra-Panel Styling*/
   #description {
-    width: 300px;
+    width: 400px;
     height: 80px;
     position: absolute;
     left: 0;
@@ -188,13 +188,13 @@
     margin: 20px auto 0 auto;
     padding: 0%;
     list-style: none;
-
   }
 
   .timeframe {
     width: 130px;
     line-height: 30px;
     display: inline-block;
+    font-weight: 600;
     font-size: 18px;
     text-align: center;
   }

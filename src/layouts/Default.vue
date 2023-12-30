@@ -40,7 +40,9 @@
     }
 
     #app-name {
-        font-size: 20px;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 700;
     }
 
     #app-logo {

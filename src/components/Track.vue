@@ -41,19 +41,20 @@
     }
 
     .song-details {
-        width: 190px;
-        margin-left: 10px;
+        width: 240px;
+        margin-left: 12px;
     }
 
     .name {
-        font-size: 12px;
-        font-weight: 700;
+        font-size: 11px;
+        font-weight: 500;
         color: var(--text);
     }
 
     .artist {
-        font-size: 12px;
-        color: var(--text-accent);
+        font-size: 10px;
+        font-weight: 500;
+        color: var(--primary-accent);
     }
 
 
