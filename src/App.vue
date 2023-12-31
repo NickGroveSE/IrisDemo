@@ -10,11 +10,11 @@
       artist: "Frost Children",
       imgurl: "./elixir_rejection.jpg",
       colors: [
-        '63905E',
-        'D6BBAE',
-        '86A35F',
-        '4E654D',
-        '101315'
+        '708F63',
+        'F5547C',
+        'FBEED6',
+        '63775B',
+        'CBC9C5'
       ]
     },
     {
@@ -35,10 +35,10 @@
       imgurl: "./my_agenda.jpg",
       colors: [
         '495A54',
-        'C9E0A7',
-        '80A98F',
-        '141C18',
-        '061107'
+        '3C7647',
+        'EDEEEB',
+        '464A53',
+        '141C18'
       ]
     },
     {
@@ -47,10 +47,10 @@
       imgurl: "./my_agenda.jpg",
       colors: [
         '495A54',
-        'C9E0A7',
-        '80A98F',
-        '141C18',
-        '061107'
+        '3C7647',
+        'EDEEEB',
+        '464A53',
+        '141C18'
       ]
     },
     {
@@ -83,10 +83,10 @@
       imgurl: "./my_agenda.jpg",
       colors: [
         '495A54',
-        'C9E0A7',
-        '80A98F',
-        '141C18',
-        '061107'
+        '3C7647',
+        'EDEEEB',
+        '464A53',
+        '141C18'
       ]
     },
     {
@@ -138,9 +138,9 @@
     </div>
     <div class="main-panel" id="right-panel">
       <ul id="timeframes">
-        <li class="timeframe" id="monthly"><a>1 Month</a></li>
+        <li class="timeframe"><a>1 Month</a></li>
         <li class="timeframe"><a>6 Months</a></li>
-        <li class="timeframe"><a>All Time</a></li>
+        <li class="timeframe" id="yearly"><a>All Time</a></li>
       </ul>
       <Tracklist id="tracklist" :tracks="tracks"/>
     </div>
@@ -203,7 +203,7 @@
     text-decoration: none;
   }
 
-  #monthly {
+  #yearly {
     border-bottom: 2px solid var(--primary-accent);
     color: var(--primary-accent);
     /* box-shadow: 0px 2px var(--text-accent); */

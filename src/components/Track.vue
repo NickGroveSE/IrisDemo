@@ -64,15 +64,10 @@
     }
 
     .color {
-        width: 10px;
+        width: 20px;
         height: 30px;
         float: right;
         vertical-align: top;
-        transition: 0.5s;
-    }
-
-    .colors-container:hover .color {
-        width: 30px;
     }
 
 </style>

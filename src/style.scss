@@ -178,39 +178,28 @@ body {
 
 @for $i from 1 through 10 {
   @for $j from 1 through 5 {
+    $rand: random($limit: 45) + 15;
     @if $j % 2 != 0 {
       .song:nth-child(#{$i}) .glimpse:nth-child(#{$j}) {
-        animation: downwardsAnimate (random($limit: 45) + 15) + s ease infinite;
+        animation: downwards ($rand) + s ease infinite;
       }
     } @else {
       .song:nth-child(#{$i}) .glimpse:nth-child(#{$j}) {
-        animation: upwardsAnimate (random($limit: 45) + 15) + s ease infinite;
+        animation: upwards ($rand) + s ease infinite;
       }
     }
 
   }
 }
 
-@keyframes downwardsAnimate {
-  0% {
-    transform: translateY(-50%);
-  }
-  50% {
-    transform: translateY(50%);
-  } 
-  100% {
-    transform: translateY(-50%);
-  }
+@keyframes downwards {
+  0% { transform: translateY(-50%); }
+  50% { transform: translateY(50%); } 
+  100% { transform: translateY(-50%); }
 }
 
-@keyframes upwardsAnimate {
-  0% {
-    transform: translateY(50%);
-  }
-  50% {
-    transform: translateY(-50%);
-  } 
-  100% {
-    transform: translateY(50%);
-  }
+@keyframes upwards {
+  0% { transform: translateY(50%); }
+  50% { transform: translateY(-50%); } 
+  100% { transform: translateY(50%); }
 }

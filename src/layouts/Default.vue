@@ -8,9 +8,7 @@
         <div class="header-element" id="app-name">
             Iris
         </div>
-        <a class="header-element" id="app-logo">
-            Logo
-        </a>
+        <a class="header-element" id="app-logo"></a>
     </header>
 
     <main id="main">
@@ -46,11 +44,10 @@
     }
 
     #app-logo {
-        width: 60px;
-        height: 40px;
-        border-radius: 20px;
-        background-color: var(--primary-accent);
-        text-align: center;
+        width: 1000px;
+        height: 1000px;
+        background: url('../../public/iris.svg') no-repeat;
+        background-size: 60px 40px;
     }
 
     /* Main Styling */
