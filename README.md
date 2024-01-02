@@ -2,6 +2,8 @@
 
 Iris is going to be a web app that creates an iridescent representation of the music you listen to, and this Github Repo is the Frontend Demo. The way it will work is you login to your Spotify and using your top ten songs from your last month of listening it will create your "Iris". Your Iris is an everchanging visual representation of the prevalent colors found in album artwork of songs you love. You will be able to change the timeframe that Spotify pulls from, letting you see your Iris over the last 6 months or your all time Iris. I also wanted to give the user the ability to look into the colors of the songs, so every song will show a palette of the colors it contributes to the Iris and the palette is linked to coolors.co so you can look into the colors more in-depth.
 
+<img src="./public/irisdemoss.png" >
+
 ## How Far Along is the Project?
 
 I am currently going to be working on the Backend functionality of Iris. Right now with the Frontend Demo the songs and colors are hardcoded, so with the Backend I will be working with ImageMagick to get the colors of the album artworks, and using Spotify's API to extract users' listening data.
