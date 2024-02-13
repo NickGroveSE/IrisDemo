@@ -170,15 +170,15 @@
 
   /* Intra-Panel Styling*/
   #description {
-    width: 400px;
-    height: 80px;
+    width: 600px;
+    height: 120px;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 50px;
+    bottom: 20px;
     margin: 0 auto 0 auto;
     padding: 5px;
-    font-size: 14px;
+    font-size: 21px;
     text-align: center;
   }
 
