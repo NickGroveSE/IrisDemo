@@ -27,18 +27,18 @@
 
     /* Header Styling */
     header {
-        height: 60px;
+        height: 90px;
     }
 
     .header-element {
         vertical-align: top;
         margin: 10px 10px 10px 0;
-        line-height: 40px;
+        line-height: 60px;
         display: inline-block;
     }
 
     #app-name {
-        font-size: 24px;
+        font-size: 36px;
         font-style: italic;
         font-weight: 700;
     }
@@ -47,7 +47,7 @@
         width: 1000px;
         height: 1000px;
         background: url('../../public/iris.svg') no-repeat;
-        background-size: 60px 40px;
+        background-size: 90px 60px;
     }
 
     /* Main Styling */
