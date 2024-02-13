@@ -23,8 +23,8 @@
 <style scoped>
 
     #iris{
-        width: 600px;
-        height: 600px;
+        width: 450px;
+        height: 450px;
         margin: 50px auto 0 auto;
         background-color: white;
         filter: drop-shadow(5px 5px var(--primary-accent)) drop-shadow(5px 5px var(--secondary-accent));
@@ -35,8 +35,8 @@
         position: absolute;
         mix-blend-mode: hard-light;
         
-        width: 150px;
-        height: 150px;
+        width: 225px;
+        height: 225px;
 
         opacity: 1;
     }
