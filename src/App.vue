@@ -183,8 +183,8 @@
   }
 
   #timeframes {
-    height: 30px;
-    width: 390px;
+    height: 45px;
+    width: 585px;
     margin: 20px auto 0 auto;
     padding: 0%;
     list-style: none;
