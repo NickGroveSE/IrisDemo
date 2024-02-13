@@ -191,11 +191,11 @@
   }
 
   .timeframe {
-    width: 130px;
-    line-height: 30px;
+    width: 195px;
+    line-height: 45px;
     display: inline-block;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 27px;
     text-align: center;
   }
 
