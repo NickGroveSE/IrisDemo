@@ -210,8 +210,8 @@
   }
 
   #tracklist {
-    height: 400px;
-    width: 450px;
+    height: 600px;
+    width: 675px;
     position: absolute;
     left: 0;
     right: 0;

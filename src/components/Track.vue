@@ -31,28 +31,28 @@
 <style scoped>
 
     .song-element {
-        height: 30px;
+        height: 45px;
         display: inline-block;
         vertical-align: top;
     }
 
     .album-art {
-        width: 30px;
+        width: 45px;
     }
 
     .song-details {
-        width: 240px;
+        width: 360px;
         margin-left: 12px;
     }
 
     .name {
-        font-size: 11px;
+        font-size: 16.5px;
         font-weight: 500;
         color: var(--text);
     }
 
     .artist {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 500;
         color: var(--primary-accent);
     }
@@ -64,8 +64,8 @@
     }
 
     .color {
-        width: 20px;
-        height: 30px;
+        width: 30px;
+        height: 45px;
         float: right;
         vertical-align: top;
     }
