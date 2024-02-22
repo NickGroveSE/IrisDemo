@@ -178,7 +178,7 @@ body {
 
 @for $i from 1 through 10 {
   @for $j from 1 through 5 {
-    $rand: random($limit: 45) + 15;
+    $rand: random($limit: 45) + 45;
     @if $j % 2 != 0 {
       .song:nth-child(#{$i}) .glimpse:nth-child(#{$j}) {
         animation: downwards ($rand) + s ease infinite;
